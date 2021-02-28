@@ -70,6 +70,10 @@ body {
 .header {
   display: flex;
   align-items: center;
+  border: 1px solid #ececec;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: chartreuse;
 }
 .navigaton {
   display: flex;
@@ -77,6 +81,7 @@ body {
 .navigation-list {
   display: flex;
   align-items: center;
+  margin-left: 93px;
 }
 .logo-color {
   color: black;
@@ -88,9 +93,18 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
+.navigation-item {
+  margin-right: 50pt;
+}
+.navigation-item:last-child {
+  margin-right: 0px;
+}
 .navigation-link:hover,
 .navigation-link:focus {
   color: var(--accent-color);
+}
+.mail-link {
+  margin-right: 50px;
 }
 .mail-link,
 .tel-link {
@@ -180,12 +194,19 @@ body {
 /*-----------------------------OUR PROFESSIONAL   END-------------------------------------------*/
 
 /*-----------------------------FOOTER-------------------------------------------*/
+.footer {
+  background-color: #2f303a;
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .address-link-addres {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 .mail-footer,
 .tel-footer {
@@ -193,10 +214,19 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
 }
 .logo-color-footer {
-  /*color: white;*/
+  color: white;
+}
+.address-link-logo {
+  margin-bottom: 20px;
+}
+.address-link {
+  margin-bottom: 9px;
+}
+.address-link:last-child {
+  margin-bottom: 0px;
 }
 /*-----------------------------FOOTER  END-------------------------------------------*/
 
@@ -208,7 +238,9 @@ body {
   padding-top: 94pt;
   background-color: blueviolet;
 }
-
+.info {
+  margin-left: auto;
+}
 .button-nav {
   margin-right: 8px;
   font-weight: 500;
@@ -219,6 +251,7 @@ body {
   border: 1px solid transparent;
   background-color: #f5f4fa;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 .button-nav:last-child {
   margin-right: 0px;
