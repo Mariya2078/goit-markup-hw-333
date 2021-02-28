@@ -125,12 +125,15 @@ body {
 /*---------------------------END HEADER--------------------------------------------*/
 
 /*-------------------------------------HERO----------------------------------------------*/
+.hero {
+  background-color: #2f303a;
+}
+
 .modal-btn {
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -139,6 +142,8 @@ body {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   text-align: center;
+  min-width: 200px;
+  height: 50px;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -152,11 +157,18 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: #FFFFFF;*/
+  color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  align-items: center;
 }
 /*---------------------------END HERO--------------------------------------------*/
 
 /*---------------------------DISCRIPTION--------------------------------------------*/
+.discription {
+  background-color: aqua;
+}
+
 .discription-option {
   font-weight: bold;
   font-size: 14px;
