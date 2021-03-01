@@ -127,9 +127,13 @@ body {
 /*-------------------------------------HERO----------------------------------------------*/
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .modal-btn {
+  display: block;
+  margin: 0 auto;
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
@@ -144,6 +148,7 @@ body {
   text-align: center;
   min-width: 200px;
   height: 50px;
+  margin-top: 30px;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -158,8 +163,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 200px;
-  padding-bottom: 280px;
   align-items: center;
 }
 /*---------------------------END HERO--------------------------------------------*/
@@ -167,8 +170,12 @@ body {
 /*---------------------------DISCRIPTION--------------------------------------------*/
 .discription {
   background-color: aqua;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-
+.discription-link {
+  display: flex;
+}
 .discription-option {
   font-weight: bold;
   font-size: 14px;
@@ -176,6 +183,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
+}
+.discr-li:not(:last-child) {
+  margin-right: 30px;
 }
 .our-idea {
   font-weight: normal;
@@ -187,14 +198,47 @@ body {
 
 /*---------------------------END DISCRIPTION--------------------------------------------*/
 
-/*-----------------------------OUR PROFESSIONAL-------------------------------------------*/
+/*----------------------------------ABOUT------------------------------------------------*/
+.about {
+  background-color: tomato;
+  padding-bottom: 94px;
+}
+.about-img {
+  display: flex;
+}
+.about-img-item:not(:last-child) {
+  margin-right: 30px;
+}
+.about-title {
+  margin-bottom: 50px;
+}
+/*----------------------------------ABOUT END------------------------------------------------*/
 
+/*-----------------------------OUR PROFESSIONAL-------------------------------------------*/
+.our-professional {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.our-professional-list-item {
+  display: block;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-professional-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.our-professional-list-item-card {
+  display: flex;
+}
 .prof-first-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 .prof-last-name {
   font-weight: normal;
@@ -202,6 +246,11 @@ body {
   line-height: 19px;
   letter-spacing: 0.03em;
   color: var(--accent-second-color);
+}
+.prof-title {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /*-----------------------------OUR PROFESSIONAL   END-------------------------------------------*/
 
