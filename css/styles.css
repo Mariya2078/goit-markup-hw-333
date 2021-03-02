@@ -70,9 +70,11 @@ body {
 .header {
   display: flex;
   align-items: center;
-  border: 1px solid #ececec;
   padding-top: 25px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+  box-sizing: border-box;
+  width: 100%;
 }
 .navigaton {
   display: flex;
@@ -215,10 +217,16 @@ body {
 .our-professional {
   padding-top: 94px;
   padding-bottom: 94px;
+  background: #f5f4fa;
 }
 .our-professional-list-item {
-  display: block;
   background: #ffffff;
+}
+
+.shadow-card:hover,
+.shadow-card:focus {
+  display: block;
+  outline: none;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -295,7 +303,6 @@ body {
   justify-content: center;
   padding-top: 94px;
   padding-bottom: 50px;
-  background-color: aqua;
 }
 .info {
   margin-left: auto;
@@ -362,7 +369,6 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  background-color: #188ce8;
   padding-bottom: 94px;
 }
 
