@@ -293,7 +293,9 @@ body {
 .btn-portfolio {
   display: flex;
   justify-content: center;
-  padding-top: 94pt;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  background-color: aqua;
 }
 .info {
   margin-left: auto;
@@ -309,6 +311,7 @@ body {
   background-color: #f5f4fa;
   border-radius: 4px;
   box-sizing: border-box;
+  padding: 6px 22px;
 }
 .button-nav:last-child {
   margin-right: 0px;
@@ -359,8 +362,8 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  background-color: #188ce8;
+  padding-bottom: 94px;
 }
-.portfolio {
-  padding-top: 50px;
-}
+
 /*-----------------------------PORTFOLIO  END-------------------------------------------*/
